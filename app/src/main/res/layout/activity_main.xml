@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:src="@drawable/cat1"/>
+
    <EditText
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
@@ -22,6 +27,17 @@
        android:maxLines="1"
        android:inputType="textPassword"
        android:imeOptions="actionDone"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="login"
+       android:textAllCaps="false"/>
+
+   <CheckBox
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:checked="true"
+       android:text="자동 로그인" />
 
 
 </LinearLayout>
