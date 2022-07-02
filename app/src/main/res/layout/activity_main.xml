@@ -11,14 +11,16 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:hint="이메일 입력"
-       android:singleLine="true"
+       android:maxLines="1"
+       android:inputType="textEmailAddress"
        android:imeOptions="actionNext"/>
 
    <EditText
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:hint="패스워드 입력"
-       android:singleLine="true"
+       android:maxLines="1"
+       android:inputType="textPassword"
        android:imeOptions="actionDone"/>
 
 
